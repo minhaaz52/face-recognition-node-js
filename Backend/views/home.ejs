@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            index file
+        </title>
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    </head>
+    <body>
+        <%- include('partials/nav') %>
+        <h1>Hello this is an index file.</h1>
+        <h2>
+            <%= data.name %>
+            <%= data.age %>
+            <%=data.id%>
+        </h2>
+    </body>
+</html>
